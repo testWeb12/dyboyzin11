@@ -1,0 +1,332 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Battambang&family=Moul&family=Odor+Mean+Chey&family=Varela+Round&display=swap');
+
+.MenuName,.offcanvas-title{
+    font-family: 'Moul', cursive;
+    font-size: 2em;
+    text-decoration: none;
+    color:#17A591;
+}
+
+*{
+  font-family: 'Battambang', serif;
+}
+.logo{
+    width: 85px;
+}
+.coverIMG{
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+.Schoolname{
+  color:whitesmoke;
+  font-family: 'Moul', cursive;
+  text-shadow: 3px 3px black;
+}
+.DesName{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+/* Cover IMG */
+.coverIMG img{
+  width: 100%;
+  height: 100%;
+  /* border-bottom: 10px solid #027062; */
+}
+.centered {
+  width:90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color:white;
+  text-shadow: 1px 2px black;
+  padding:15px;
+  background-color: rgba(240, 255, 255, 0.395);
+  transform: translate(-50%, -50%);
+}
+/* End cover IMG */
+
+/* Footer1 */
+.footer1{
+  display: flex;
+  flex-direction: row;
+  padding:20px;
+  background-color: #17A591;
+  color:white;
+  border-top: 10px solid #027062;
+}
+
+.left1,.right1{
+  width:30%;
+}
+.center1{
+  width:40%;
+}
+/* End Footer1 */
+.container{
+  height: 100vh;
+}
+.left1,.left1p{
+  font-size: 6vw;
+  line-height: 55pt;
+  color:white;
+  display: block;
+}
+.left1p{
+  display: none;
+}
+.right1{
+  margin:auto auto;
+}
+.socialicon{
+  width:30px;
+}
+.btnyoutube,.btnfacebook,.btntelegram{
+  width:95%;
+  padding:20px;
+  border:none;
+  margin:3px;
+}
+.btnfacebook a,.btnyoutube a{
+  text-decoration: none;
+  color:white;
+}
+.btnfacebook{
+  background-color: #00477F;
+  transition: 0.4s;
+  color:white;
+}
+.btnyoutube{
+  background-color: #FF0000;
+  transition: 0.4s;
+  color:white;
+}
+.btntelegram{
+  background-color: #0088cc;
+  color:white;
+  transition: 0.4s;
+}
+.btnfacebook:hover,.btnyoutube:hover,.btntelegram:hover{
+  transform: scale(1.1);
+}
+/* End footer1 */
+/* Footer2 */
+.footer2{
+  display: flex;
+  flex-direction: row;
+  padding:20px;
+  background-color: #037062;
+  color:white;
+  justify-content: space-between;
+  margin:auto;
+}
+
+.left2{
+  width:35%;
+}
+.left2 img{
+  height: 115px;
+}
+.right2{
+  width:60%;
+  margin:auto 0px;
+}
+/* End footer2 */
+/* Banner text show */
+.bannerAbout{
+  display: block;
+  padding-top: 215px;
+  height:350px;
+  text-align: center;
+  background: linear-gradient(102.1deg, rgb(96, 221, 142) 8.7%, rgb(24, 138, 141) 88.1%);
+}
+.bannerAnnouncement{
+  display: block;
+  padding-top: 215px;
+  height:350px;
+  text-align: center;
+  background: linear-gradient(177.8deg, rgb(255, 128, 0) 9.2%, rgb(232, 211, 59) 86.8%);
+}
+.bannerEvent{
+  display: block;
+  padding-top: 215px;
+  height:350px;
+  text-align: center;
+  background: radial-gradient(1294px at -15.5% 23.8%, rgb(255, 206, 149) 0%, rgb(247, 92, 92) 44.9%, rgba(108, 0, 96, 0.97) 93.8%);
+}
+.bannerNews{
+  display: block;
+  padding-top: 215px;
+  height:350px;
+  text-align: center;
+  background:linear-gradient(109.6deg, rgb(62, 161, 219) 11.2%, rgb(93, 52, 236) 100.2%);}
+.bannerText{
+  font-size: 32px;
+  color:#ffff;
+  font-family: 'Moul', cursive;
+}
+/* End banner */
+/* Content */
+.content{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pcontent{
+  line-height: 30px;
+  font-size: 18px;
+  margin:20px 0px;
+}
+
+.map{
+  height:300px;
+  margin-bottom: 70px;
+}
+
+.item{
+  width:450px;
+  background-color: #ffff;
+  margin:20px;
+  padding:10px;
+  display: flex;
+  outline: none;
+  overflow: hidden;
+  border:1px solid #CBCDD1;
+  flex-direction: column;
+  transition: 0.4s;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #aaaaaa;
+}
+.item:hover{
+  cursor: pointer;
+  transform:scale(1.1);
+}
+.aitem{
+  text-decoration: none;
+  color:black;
+}
+.itop{
+  height: 30px;
+  margin:8px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ibottom{
+  display: flex;
+  flex-direction: row;
+}
+.idate{
+  width:30%;
+  margin-top:20px;
+  margin-left: 20px;
+}
+.ides{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 1200px){
+    .content{
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+}
+
+
+
+@media only screen and (max-width: 580px) {
+  .logo{
+    width:55px;
+  }
+
+  .imgCover{
+    object-fit: cover; object-position: 100% 0;
+  }
+  .MenuName, .offcanvas-title{
+    font-family: 'Moul', cursive;
+    font-size: 1.2em;
+    text-decoration: none;
+    color:#17A591;
+}
+  .DesAdd{
+    font-size: 11px;
+  }
+  /* footer1 */
+  .footer1{
+    display: flex;
+    flex-direction: column;
+    color:white;
+  }
+  .left1,.center1,.right1{
+    width:90%;
+    margin:auto;
+    text-align: center;
+  }
+  .left1{
+    display: none;
+  }
+  .left1p{
+    display: block;
+    text-align: center;
+  }
+  .a{
+    color:white;
+    font-size: 1.7em;
+  }
+  /* footer2 */
+  .footer2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .left2,.right2{
+    width: 100%;
+    text-align: center;
+  }
+  /* Banner */
+  .bannerAbout{
+    padding-top: 145px;
+    height:250px;
+    text-align: center;
+    background: linear-gradient(102.1deg, rgb(96, 221, 142) 8.7%, rgb(24, 138, 141) 88.1%);
+  }
+  .bannerAnnouncement{
+    padding-top: 145px;
+    height:250px;
+    text-align: center;
+    background: linear-gradient(102.1deg, rgb(96, 221, 142) 8.7%, rgb(24, 138, 141) 88.1%);
+  }
+  .bannerEvent{
+    padding-top: 145px;
+    height:250px;
+    text-align: center;
+    background: radial-gradient(1294px at -15.5% 23.8%, rgb(255, 206, 149) 0%, rgb(247, 92, 92) 44.9%, rgba(108, 0, 96, 0.97) 93.8%);
+  }
+  .bannerNews{
+    padding-top: 145px;
+    height:250px;
+    text-align: center;
+    background:linear-gradient(109.6deg, rgb(62, 161, 219) 11.2%, rgb(93, 52, 236) 100.2%);
+  }
+  .bannerText{
+    font-size: 28px;
+    color:#ffff;
+    font-family: 'Moul', cursive;
+  }
+  .item{
+    margin:8px;
+    width: 100%;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
